@@ -32,7 +32,7 @@ try {
 
 if (
     process.env.NODE_ENV === `production` &&
-    config.siteUrl === `http://localhost:8000` &&
+    config.siteUrl === `httpa://gleaming-basbousa-593777.netlify.app` &&
     !process.env.SITEURL
 ) {
     throw new Error(
